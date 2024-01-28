@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "ホームページ";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+実行環境
+asp.net core 8.0
+
+デプロイ
+
+IIS
+<a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.1-windows-hosting-bundle-installer">
+これPCにインストールしないとIISが.net core8.0に対応しない</a>
+
+プロジェクトで右クリックして発行→
+C:\source\VS2022\Core55\bin\Release\net8.0\publishの中身
+inetpub/wwwrootにCore555作成して貼り付け
+
+ブラウザでhttp://localhost/Site555
+
+<button id="btnStart">ボタン</button>
